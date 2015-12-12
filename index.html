@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Document</title>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/javascript.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/application.css">
+		<link rel="stylesheet" type="text/css" href="css/home.css">
+		<link href='https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+	</head>
+	<body>
+		<header class="container">
+			<div class="row">
+				<div id="header-registration" class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
+					<p>8 (4852)<span class="redText"> 732-197</span></p>
+					<input class="inputBackgroundNone headerHover" type="button" value="Войти"><br/>
+					<input class="inputBackgroundNone headerHover" type="button" value="Регистрация">
+				</div>
+				<div id="logo" class="col-xs-4 col-sm-4 col-md-6 col-lg-6">
+					<img src="image/logo.png" alt="Логотип"><br/>
+					<p>интернет-магазин подарков и сувениров</p>
+				</div>
+				<div id="headerSearch" class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
+					<i class="fa fa-shopping-cart redText"></i><input type="button" class="inputBackgroundNone headerHover" value="Корзина"><br/>
+					<p id="headerCartOutput">0 руб.</p>
+					<div id="headerSearchInput">
+						<input class="inputBackgroundNone" type="search" placeholder="Поиск">
+						<i class="fa fa-search"></i>
+					</div>
+				</div>
+			</div>
+
+			<nav class="navbar navbar-default">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span> 
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+								<i class="fa fa-caret-down redText"></i>Каталог
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Пункт 1</a></li>
+								<li><a href="#">Пункт 2</a></li>
+								<li><a href="#">Пункт 3</a></li> 
+							</ul>
+						</li>
+						<li><a href="#">Оплата и доставка</a></li>
+						<li><a href="#">Вы-автор</a></li> 
+						<li><a href="#">Интересное</a></li>
+						<li><a href="#">О компании</a></li> 
+						<li><a href="#">Контакты</a></li>  
+					</ul>
+				</div>
+			</nav>
+			<p class="line"></p>
+		</header>
+
+		<!-- Content---------- -->
+		<div class="container">
+			<p id="promoText" class="redText">Хиты продаж</p>
+			<div id="Carousel" class="carousel slide" data-ride="carousel">
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+			    <div class="item active">
+			      	<div class="homeProductHover">
+			      		<div class="homeProductHidden">
+			      			<p class="homeProductDescription homeColorBlack" >Lorem ipsum, dolar. Ipsum lorem dolor. Lorem ipsum</p>
+			      			<p class="line"></p>
+			      			<span id="homeProductPrice" class='homeColorBlack'>2048 руб.</span>
+			      			<span id="homeProductButton" class='homeColorBlack'>Купить</span>
+			      		</div>
+			      		<img src="image/example_one.png" alt="one"></img>
+			      	</div>
+			      	<div class="homeProductHover">
+			      		<div class="homeProductHidden">
+			      			<p class="homeProductDescription homeColorBlack">Lorem ipsum, dolar. Ipsum lorem dolor. Lorem ipsum</p>
+			      			<p class="line"></p>
+			      			<span id="homeProductPrice" class='homeColorBlack'>2048 руб.</span>
+			      			<span id="homeProductButton" class='homeColorBlack'>Купить</span>
+			      		</div>
+			      		<img src="image/example_two.png" alt="two"></img>
+			      	</div>
+			      	<div class="homeProductHover">
+			      		<div class="homeProductHidden">
+			      			<p class="homeProductDescription homeColorBlack">Lorem ipsum, dolar. Ipsum lorem dolor. Lorem ipsum</p>
+			      			<p class="line"></p>
+			      			<span id="homeProductPrice" class='homeColorBlack'>2048 руб.</span>
+			      			<span id="homeProductButton" class='homeColorBlack'>Купить</span>
+			      		</div>
+			      		<img src="image/example_three.png" alt="three"></img>
+			      	</div>
+			    </div>
+
+			    <div class="item">
+			      	<div class="homeProductHover">
+			      		<div class="homeProductHidden">
+			      			<p class="homeProductDescription homeColorBlack" >Lorem ipsum, dolar. Ipsum lorem dolor. Lorem ipsum</p>
+			      			<p class="line"></p>
+			      			<span id="homeProductPrice" class='homeColorBlack'>2048 руб.</span>
+			      			<span id="homeProductButton" class='homeColorBlack'>Купить</span>
+			      		</div>
+			      		<img src="image/example_one.png" alt="one"></img>
+			      	</div>
+			      	<div class="homeProductHover">
+			      		<div class="homeProductHidden">
+			      			<p class="homeProductDescription homeColorBlack">Lorem ipsum, dolar. Ipsum lorem dolor. Lorem ipsum</p>
+			      			<p class="line"></p>
+			      			<span id="homeProductPrice" class='homeColorBlack'>2048 руб.</span>
+			      			<span id="homeProductButton" class='homeColorBlack'>Купить</span>
+			      		</div>
+			      		<img src="image/example_two.png" alt="two"></img>
+			      	</div>
+			      	<div class="homeProductHover">
+			      		<div class="homeProductHidden">
+			      			<p class="homeProductDescription homeColorBlack">Lorem ipsum, dolar. Ipsum lorem dolor. Lorem ipsum</p>
+			      			<p class="line"></p>
+			      			<span id="homeProductPrice" class='homeColorBlack'>2048 руб.</span>
+			      			<span id="homeProductButton" class='homeColorBlack'>Купить</span>
+			      		</div>
+			      		<img src="image/example_three.png" alt="three"></img>
+			      	</div>
+			    </div>
+
+			    <div class="item">
+			      	<div class="homeProductHover">
+			      		<div class="homeProductHidden">
+			      			<p class="homeProductDescription homeColorBlack" >Lorem ipsum, dolar. Ipsum lorem dolor. Lorem ipsum</p>
+			      			<p class="line"></p>
+			      			<span id="homeProductPrice" class='homeColorBlack'>2048 руб.</span>
+			      			<span id="homeProductButton" class='homeColorBlack'>Купить</span>
+			      		</div>
+			      		<img src="image/example_one.png" alt="one"></img>
+			      	</div>
+			      	<div class="homeProductHover">
+			      		<div class="homeProductHidden">
+			      			<p class="homeProductDescription homeColorBlack">Lorem ipsum, dolar. Ipsum lorem dolor. Lorem ipsum</p>
+			      			<p class="line"></p>
+			      			<span id="homeProductPrice" class='homeColorBlack'>2048 руб.</span>
+			      			<span id="homeProductButton" class='homeColorBlack'>Купить</span>
+			      		</div>
+			      		<img src="image/example_two.png" alt="two"></img>
+			      	</div>
+			      	<div class="homeProductHover">
+			      		<div class="homeProductHidden">
+			      			<p class="homeProductDescription homeColorBlack">Lorem ipsum, dolar. Ipsum lorem dolor. Lorem ipsum</p>
+			      			<p class="line"></p>
+			      			<span id="homeProductPrice" class='homeColorBlack'>2048 руб.</span>
+			      			<span id="homeProductButton" class='homeColorBlack'>Купить</span>
+			      		</div>
+			      		<img src="image/example_three.png" alt="three"></img>
+			      	</div>
+			  </div>
+
+			  <!-- Left and right controls -->
+			  <a class="left carousel-control" href="#Carousel" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-menu-left colorHomeGrey" aria-hidden="true"></span>
+			  </a>
+			  <a class="right carousel-control" href="#Carousel" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-menu-right colorHomeGrey" aria-hidden="true"></span>
+			  </a>
+			</div>
+			<p class="line"></p>
+			<div class="row" id="homeProduct">
+				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+					<img src="image/test_one.png" alt=""><br/>
+					<span>Lorem ipsum</span>
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+					<img src="image/test_two.png" alt=""><br/>
+					<span>Lorem ipsum</span>
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+					<img src="image/test_three.png" alt=""><br/>
+					<span>Lorem ipsum</span>
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+					<img src="image/test_one.png" alt=""><br/>
+					<span>Lorem ipsum</span>
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+					<img src="image/test_two.png" alt=""><br/>
+					<span>Lorem ipsum</span>
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+					<img src="image/test_three.png" alt=""><br/>
+					<span>Lorem ipsum</span>
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+					<img src="image/test_one.png" alt=""><br/>
+					<span>Lorem ipsum</span>
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+					<img src="image/test_three.png" alt=""><br/>
+					<span>Lorem ipsum</span>
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+					<img src="image/test_two.png" alt=""><br/>
+					<span>Lorem ipsum</span>
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+					<img src="image/test_one.png" alt=""><br/>
+					<span>Lorem ipsum</span>
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+					<img src="image/test_three.png" alt=""><br/>
+					<span>Lorem ipsum</span>
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+					<img src="image/test_one.png" alt=""><br/>
+					<span>Lorem ipsum</span>
+				</div>
+			</div>
+			<p class="line"></p>
+		</div>
+
+		<!------------ -->
+
+		<footer class="container">
+			<div class="row">
+				<div id="footerCatalog" class="hidden-xs col-sm-6 col-md-4 col-lg-4">
+					<div class="row">
+						<div class="col-sm-12"><span id="footerBlack">Каталог</span></div>
+						<div class="col-sm-6"><span>Пункт 1</span></div>
+						<div class="col-sm-6"><span>Пункт 2</span></div>
+						<div class="col-sm-6"><span>Пункт 3</span></div>
+						<div class="col-sm-6"><span>Пункт 4</span></div>
+						<div class="col-sm-6"><span>Пункт 5</span></div>
+						<div class="col-sm-6"><span>Пункт 6</span></div>
+						<div class="col-sm-6"><span>Пункт 7</span></div>
+						<div class="col-sm-6"><span>Пункт 8</span></div>
+						<div class="col-sm-6"><span>Пункт 9</span></div>
+						<div class="col-sm-6"><span>Пункт 10</span></div>
+						<div class="col-sm-6"><span>Пункт 11</span></div>
+						<div class="col-sm-6"><span>Пункт 12</span></div>
+					</div>
+				</div>
+				<div id="footerNav" class="hidden-xs hidden-sm col-md-4 col-lg-4">
+					<p><a href="#">Оплата и доставка</a></p>
+					<p><a href="#">Вы-автор</a></p> 
+					<p><a href="#">Интересное</a></p>
+					<p><a href="#">О компании</a></p> 
+					<p><a href="#">Контакты</a></p>
+				</div>
+				<div id="aboutInformation" class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<span>Адрес: Волжская набережна, дом 49/11</span><br/>
+					<span>Режим работы: c 8.00 lo 17.00, пн-пт</span><br/>
+					<span>тел. 8-902-334-1337, 8(4852)732-197</span><br/>
+					<span>e-mail: aqcom@mail.ru</span><br/>
+					<span>skype: aqcom_company</span><br/>
+					<span>ICQ: 383029455</span><br/>
+					<span>
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-square fa-stack-2x colorGrey"></i>
+							<i class="fa fa-vk fa-inverse fa-stack-1x"></i>
+						</span>
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-square fa-stack-2x colorGrey"></i>
+							<i class="fa fa-twitter fa-inverse fa-stack-1x"></i>
+						</span><span class="fa-stack fa-lg">
+							<i class="fa fa-square fa-stack-2x colorGrey"></i>
+							<i class="fa fa-odnoklassniki fa-inverse fa-stack-1x"></i>
+						</span><span class="fa-stack fa-lg">
+							<i class="fa fa-square fa-stack-2x colorGrey"></i>
+							<i class="fa fa-facebook fa-inverse fa-stack-1x"></i>
+						</span>
+					</span>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

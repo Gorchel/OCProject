@@ -1,0 +1,82 @@
+#promoText{
+	font-size: 22px;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 20px; 
+	font-family: 'Lobster', cursive;
+}
+
+#Carousel .item>div{
+	display: inline-block;
+	border: 1px solid rgb(195,195,195);
+	padding: 30px 10px;
+	margin: 0px 10px;
+}
+
+#Carousel .item{
+	text-align: center;
+}
+
+.colorHomeGrey{
+	color: rgb(95,95,95);
+}
+
+#Carousel .carousel-control{
+	background-image: none; 
+}
+
+.redText{
+	color: red;
+}
+
+#Carousel .glyphicon{
+	padding: 0px 10px;
+	padding-top: 70%;
+}
+
+#homeProduct{
+	text-align: center;
+}
+
+#homeProduct>div{
+	margin: 20px 0px;
+}
+
+#homeProduct>div>span{
+	font-size: 14px;
+}
+
+.homeProductHover{
+	cursor: pointer;
+}
+
+.homeProductHidden{
+	display: none;
+	position: absolute;
+	padding: 15px;
+	margin-left: -12px;
+    margin-top: -30px;
+	background-color: rgba(205,205,205,0.7);
+	z-index: 99999;
+}
+
+.homeProductHidden p{
+	text-align: center;
+}
+
+.homeProductHidden .line{
+	border-color: black;
+	margin: 10px 0px;
+}
+
+.homeColorBlack{
+	color: black;
+}
+
+#homeProductButton{
+	float: right;
+}
+
+#homeProductPrice{
+	float: left;
+}

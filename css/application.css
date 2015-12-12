@@ -1,0 +1,169 @@
+@font-face {
+	font-family: "MyriadPro";
+	src: url("../fonts/MyriadPro.otf");
+}
+
+body{
+	font-family: "MyriadPro";
+	font-size: 16px;
+	color: rgb(98,98,98);
+}
+
+.redText{
+	color: red;
+}
+
+#header-registration p,input{
+	margin: 1px;
+	font-size: 14px;
+}
+
+.inputBackgroundNone{
+	border: none;
+	background: none;
+	padding: 0px;
+}
+
+#headerCartOutput{
+	color: rgb(195,195,195);
+	margin-bottom: 3px;
+}
+
+.inputBackgroundNone:focus{
+	outline: none;
+}
+
+.headerHover:hover{
+	color: red;
+}
+
+#header-registration .redText{
+	font-size: 18px;
+}
+
+#headerSearch{
+	text-align: right;
+	font-size: 14px;
+}
+
+.fa-caret-down,.fa-shopping-cart,.fa-search{
+	margin-right: 5px;
+}
+
+#headerSearch .fa-search{
+	color: rgb(195,195,195);
+	cursor: pointer;
+}
+
+#headerSearchInput{
+	border: 1px solid rgb(195,195,195);
+	border-radius: 3px;
+	width: 200px;
+	display: inline-block;
+}
+
+#headerSearchInput input{
+	width: 170px;
+}
+
+#logo{
+	text-align: center;
+}
+
+header{
+	padding-top: 20px;
+}
+
+nav{
+	margin: 0px !important;
+}
+
+.navbar-default{
+	background-color: white;
+	border: none;
+}
+.navbar-default .dropdown-menu{
+    margin-top: -8px !important;
+    margin-left: 10px;
+}
+
+nav > div > ul{
+	width: 100%;
+	text-align: center;
+}
+
+@media(min-width:970px){
+	nav li{
+		display: inline-block !important;
+		float:none !important;
+	}
+}
+
+@media(min-width:1170px){
+	nav li{
+		padding: 10px 10px;
+	}
+}
+
+@media(max-width:970px){
+	nav li{
+		padding: 10px 0px;
+	}
+}
+
+nav a{
+	color: black !important;
+}
+
+nav a:hover{
+	background: none;
+	color: red !important;;
+}
+
+.line{
+	width: 100%;
+	border: 1px solid rgb(195,195,195);
+	margin: 40px 0px;
+}
+
+.colorGrey{
+	color: rgb(195,195,195);
+}
+
+#aboutInformation{
+	text-align: right;
+}
+
+#aboutInformation span{
+	font-size: 12px;
+}
+
+@media(max-width: 750px){
+	#aboutInformation{
+		text-align: left;
+	}
+}
+
+#footerCatalog{
+	font-size: 14px;
+}
+
+#footerNav p{
+	font-size: 15px;
+	padding: 0px;
+	margin: 3px;
+}
+
+#footerNav p a{
+	color: black;
+	text-decoration: none;
+}
+
+#footerNav p a:hover{
+	color: red;
+}
+
+#footerBlack{
+	color: black;
+	font-size: 16px;
+}
